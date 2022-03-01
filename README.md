@@ -1,3 +1,3 @@
-# YOUR_REPO_NAME Ex) dc.template
+# dc.webmd.primcare
 
-Allows user to easily get YOUR_DATA data from the SDAD Data Commons.  Data can be provided directly or in a file.
+Allows user to easily get Social Data Commons: Health, Behavior, Diet: Primary Care Access Scores data from the SDAD Data Commons.  Data can be provided directly or in a file.
