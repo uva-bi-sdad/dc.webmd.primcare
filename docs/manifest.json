@@ -1,0 +1,40 @@
+{
+  "name": "dc.webmd.primcare",
+  "data": [
+    {
+      "name": "access_scores_primcare",
+      "variables": ["primcare_pop_cnt", "primcare_cnt", "primcare_near_10_mean", "primcare_near_10_median", "primcare_2sfca", "primcare_e2sfca", "primcare_3sfca"],
+      "file": "dmv_cttrbg_webmd_2021_access_scores_primcare.csv.xz",
+      "size": 193860,
+      "md5": "7407f799ed52cc7b01bce4debd1d5883"
+    },
+    {
+      "name": "access_scores_primcare",
+      "variables": ["primcare_pop_cnt", "primcare_cnt", "primcare_near_10_mean", "primcare_near_10_median", "primcare_2sfca", "primcare_e2sfca", "primcare_3sfca"],
+      "file": "va_hdcttrbg_webmd_2021_access_scores_primcare.csv.xz",
+      "size": 440988,
+      "md5": "d9fdbe5d4f0f3c58f88476aa0143d9c5"
+    }
+  ],
+  "distributions": {
+    "dataverse": {
+      "id": 55988,
+      "doi": "doi:10.18130/V3/DWHHQ2",
+      "server": "https://dataverse.lib.virginia.edu/",
+      "data": [
+        {
+          "file": "dmv_cttrbg_webmd_2021_access_scores_primcare.csv.xz",
+          "id": 55989,
+          "size": 193860,
+          "md5": "7407f799ed52cc7b01bce4debd1d5883"
+        },
+        {
+          "file": "va_hdcttrbg_webmd_2021_access_scores_primcare.csv.xz",
+          "id": 56004,
+          "size": 440988,
+          "md5": "d9fdbe5d4f0f3c58f88476aa0143d9c5"
+        }
+      ]
+    }
+  }
+}

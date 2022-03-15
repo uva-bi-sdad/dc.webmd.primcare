@@ -1,28 +1,9 @@
 {
-  "primary_care_access_scores:prim_cnt": {
+  "access_scores_primcare:primcare_2sfca": {
     "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
-    "full_name": "primary_care_access_scores:prim_cnt",
-    "measure": "prim_cnt",
-    "type": "count",
-    "short_name": "Primary care access (count)",
-    "long_name": "Primary care access by count",
-    "short_description": "Count of primary care physicians based on provider locations",
-    "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-    "statement": "There are {value} primary care physicians in {features.name}.",
-    "sources": [
-      {
-        "name": "WebMD Physician Directory",
-        "date_accessed": 2021,
-        "url": "https://doctor.webmd.com/"
-      }
-    ]
-  },
-  "primary_care_access_scores:prim_e2sfca": {
-    "category": "Health",
-    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
-    "full_name": "primary_care_access_scores:prim_e2sfca",
-    "measure": "prim_e2sfca",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+    "full_name": "access_scores_primcare:primcare_2sfca",
+    "measure": "primcare_2sfca",
     "type": "index",
     "short_name": "Primary care access score",
     "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
@@ -43,10 +24,10 @@
       }
     ]
   },
-  "primcare_access_scores:primcare_e2sfca": {
+  "access_scores_primcare:primcare_e2sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
-    "full_name": "primcare_access_scores:primcare_e2sfca",
+    "full_name": "access_scores_primcare:primcare_e2sfca",
     "measure": "primcare_e2sfca",
     "type": "index",
     "short_name": "Primary care access score",
