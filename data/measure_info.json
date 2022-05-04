@@ -1,4 +1,24 @@
 {
+    "access_scores_primcare:primcare_cnt": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+    "full_name": "access_scores_primcare:primcare_cnt",
+    "measure": "prim_cnt",
+    "type": "count",
+    "short_name": "Primary care access (count)",
+    "long_name": "Primary care access by count",
+    "short_description": "Count of primary care physicians based on provider locations",
+    "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+    "statement": "There are {value} primary care physicians in {features.name}.",
+    "equity_category" : "Availability",
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
+  },
   "access_scores_primcare:primcare_2sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
@@ -8,7 +28,7 @@
     "short_name": "Primary care access score",
     "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-    "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
+    "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
     "statement": "The primary care accessibility score for {features.name} is {value}.",
     "citations": [
       "lou04",
@@ -33,8 +53,9 @@
     "short_name": "Primary care access score",
     "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-    "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
+    "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
     "statement": "The primary care accessibility score for {features.name} is {value}.",
+    "equity_category" : "Accessibility",
     "citations": [
       "lou04",
       "lou09",
