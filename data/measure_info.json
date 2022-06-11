@@ -70,6 +70,32 @@
         "url": "https://doctor.webmd.com/"
       }
     ]
+  }, 
+  "access_scores_primcare:primcare_3sfca": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+    "full_name": "access_scores_primcare:primcare_3sfca",
+    "measure": "primcare_3sfca",
+    "type": "index",
+    "short_name": "Primary care geographic availability",
+    "long_name": "Primary care geographic availability (3-step floating catchment areas)",
+    "short_description": "Index of primary care physician availability based on supply and demand of providers",
+    "long_description": "Primary care availability based on 3-step floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+    "statement": "The primary care availability for {features.name} is {value}.",
+    "equity_category" : "Availability",
+    "citations": [
+      "lou04",
+      "lou09",
+      "lou03",
+      "saxon20"
+    ],
+    "sources": [
+      {
+        "name": "WebMD Physician Directory",
+        "date_accessed": 2021,
+        "url": "https://doctor.webmd.com/"
+      }
+    ]
   },
     "_references": {
     "lou04": {
